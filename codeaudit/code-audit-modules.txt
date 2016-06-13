@@ -1,0 +1,464 @@
+
+FILE: ...nizant/Theme/view/frontend/web/js/jquery.hoverIntent.minified.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...care/app/code/Cognizant/Theme/view/frontend/web/js/jquery.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...tegoriesSide/view/frontend/web/js/jquery.hoverIntent.minified.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...app/code/Ibnab/CategoriesSide/view/frontend/web/js/jquery.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: .../All/view/frontend/web/lib/bootstrap/css/bootstrap-theme.min.css
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...de/Ves/All/view/frontend/web/lib/bootstrap/css/bootstrap.min.css
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...code/Ves/All/view/frontend/web/lib/bootstrap/js/bootstrap.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...de/Ves/All/view/frontend/web/lib/colorbox/jquery.colorbox.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...e/Ves/All/view/frontend/web/lib/fancybox/jquery.fancybox.pack.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...l/view/frontend/web/lib/fancybox/jquery.mousewheel-3.0.6.pack.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: .../code/Ves/All/view/frontend/web/lib/owl.carousel/owl.carousel.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 33 WARNINGS AFFECTING 33 LINES
+----------------------------------------------------------------------
+    6 | WARNING | Comment refers to a TODO task
+    7 | WARNING | Comment refers to a TODO task
+    8 | WARNING | Comment refers to a TODO task
+    9 | WARNING | Comment refers to a TODO task
+   10 | WARNING | Comment refers to a TODO task
+   73 | WARNING | Comment refers to a TODO task
+   80 | WARNING | Comment refers to a TODO task
+  104 | WARNING | Comment refers to a TODO task
+  128 | WARNING | Comment refers to a TODO task
+  492 | WARNING | Comment refers to a TODO task
+  493 | WARNING | Comment refers to a TODO task
+  544 | WARNING | Comment refers to a TODO task
+  665 | WARNING | Comment refers to a TODO task
+  666 | WARNING | Comment refers to a TODO task
+  692 | WARNING | Comment refers to a TODO task
+  693 | WARNING | Comment refers to a TODO task
+  755 | WARNING | Comment refers to a TODO task
+  790 | WARNING | Comment refers to a TODO task
+  791 | WARNING | Comment refers to a TODO task
+  827 | WARNING | Comment refers to a TODO task
+  866 | WARNING | Comment refers to a TODO task
+ 1112 | WARNING | Comment refers to a TODO task
+ 1284 | WARNING | Comment refers to a TODO task
+ 1319 | WARNING | Comment refers to a TODO task
+ 1343 | WARNING | Comment refers to a TODO task
+ 1452 | WARNING | Comment refers to a TODO task
+ 1572 | WARNING | Comment refers to a TODO task
+ 1599 | WARNING | Comment refers to a TODO task
+ 1614 | WARNING | Comment refers to a TODO task
+ 2036 | WARNING | Comment refers to a TODO task
+ 2249 | WARNING | Comment refers to a TODO task
+ 2687 | WARNING | Comment refers to a TODO task
+ 2819 | WARNING | Comment refers to a TODO task
+----------------------------------------------------------------------
+
+
+FILE: ...e/Ves/All/view/frontend/web/lib/owl.carousel/owl.carousel.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...de/Ves/Brand/Block/Adminhtml/Widget/Form/Field/WysiwygEditor.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 78 | ERROR | The use of function base64_decode() is forbidden
+ 79 | ERROR | The use of function base64_decode() is forbidden
+----------------------------------------------------------------------
+
+
+FILE: ...althcare/app/code/Ves/Brand/Block/Adminhtml/Widget/Separator.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 28 | WARNING | Duplicate class name
+    |         | "Ves\Brand\Block\Adminhtml\Widget\Separator" found;
+    |         | first defined in
+    |         | /Users/Arya/Dev/magento2-workflow/www/demohealthcare/app/code/Ves/Brand/Block/Adminhtml/Widget/Form/Renderer/Separator.php
+    |         | on line 28
+----------------------------------------------------------------------
+
+
+FILE: ...ealthcare/app/code/Ves/Brand/Block/Brand/Product/ListProduct.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 83 | WARNING | The method parameter $data is never used
+----------------------------------------------------------------------
+
+
+FILE: ...rkflow/www/demohealthcare/app/code/Ves/Brand/Block/BrandList.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 135 | WARNING | Possible useless method overriding detected
+----------------------------------------------------------------------
+
+
+FILE: ...www/demohealthcare/app/code/Ves/Brand/Block/Widget/Brandlist.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 54 | WARNING | The method parameter $data is never used
+----------------------------------------------------------------------
+
+
+FILE: ...are/app/code/Ves/Brand/Controller/Adminhtml/Brand/InlineEdit.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 84 | WARNING | Model LSD method load() detected in loop
+ 86 | WARNING | Model LSD method save() detected in loop
+----------------------------------------------------------------------
+
+
+FILE: ...are/app/code/Ves/Brand/Controller/Adminhtml/Brand/MassDelete.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 76 | WARNING | Model LSD method delete() detected in loop
+----------------------------------------------------------------------
+
+
+FILE: ...re/app/code/Ves/Brand/Controller/Adminhtml/Brand/MassDisable.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 64 | WARNING | Model LSD method save() detected in loop
+----------------------------------------------------------------------
+
+
+FILE: ...ealthcare/app/code/Ves/Brand/Controller/Adminhtml/Brand/Save.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AND 2 WARNINGS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  60 | WARNING | Function's cyclomatic complexity (15) exceeds 10;
+     |         | consider refactoring the function
+  82 | ERROR   | The use of function file_exists() is forbidden
+  83 | ERROR   | The use of function unlink() is forbidden
+  96 | ERROR   | The use of function file_exists() is forbidden
+  97 | ERROR   | The use of function unlink() is forbidden
+ 148 | ERROR   | Direct use of $_FILES Superglobal detected.
+ 148 | ERROR   | Direct use of $_FILES Superglobal detected.
+ 177 | WARNING | Empty return statement not required here
+----------------------------------------------------------------------
+
+
+FILE: ...are/app/code/Ves/Brand/Controller/Adminhtml/Group/MassDelete.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 67 | WARNING | Model LSD method delete() detected in loop
+----------------------------------------------------------------------
+
+
+FILE: ...re/app/code/Ves/Brand/Controller/Adminhtml/Group/MassDisable.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 68 | WARNING | Model LSD method save() detected in loop
+----------------------------------------------------------------------
+
+
+FILE: ...ealthcare/app/code/Ves/Brand/Controller/Adminhtml/Group/Save.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 31 | WARNING | Possible useless method overriding detected
+----------------------------------------------------------------------
+
+
+FILE: ...e/app/code/Ves/Brand/Controller/Adminhtml/Widget/BuildWidget.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 39 | WARNING | Identical operator === is not used for testing the
+    |         | return value of strpos function
+ 58 | ERROR   | The use of function base64_decode() is forbidden
+----------------------------------------------------------------------
+
+
+FILE: .../www/demohealthcare/app/code/Ves/Brand/Controller/Brand/View.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  69 | WARNING | Private class member detected.
+  91 | WARNING | The method parameter $storeManager is never used
+ 118 | ERROR   | Namespace for "NoSuchEntityException" class is not
+     |         | specified.
+----------------------------------------------------------------------
+
+
+FILE: .../www/demohealthcare/app/code/Ves/Brand/Controller/Group/View.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  68 | WARNING | Private class member detected.
+  89 | WARNING | The method parameter $storeManager is never used
+ 114 | ERROR   | Namespace for "NoSuchEntityException" class is not
+     |         | specified.
+----------------------------------------------------------------------
+
+
+FILE: ...www/demohealthcare/app/code/Ves/Brand/Controller/Index/Index.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 68 | WARNING | The method parameter $storeManager is never used
+----------------------------------------------------------------------
+
+
+FILE: ...flow/www/demohealthcare/app/code/Ves/Brand/Controller/Router.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 5 WARNINGS AFFECTING 5 LINES
+----------------------------------------------------------------------
+ 112 | WARNING | Function's cyclomatic complexity (13) exceeds 10;
+     |         | consider refactoring the function
+ 154 | WARNING | Identical operator === is not used for testing the
+     |         | return value of strpos function
+ 165 | WARNING | getFirstItem() does not limit the result of
+     |         | collection load to one item.
+ 183 | WARNING | Identical operator === is not used for testing the
+     |         | return value of strpos function
+ 194 | WARNING | getFirstItem() does not limit the result of
+     |         | collection load to one item.
+----------------------------------------------------------------------
+
+
+FILE: ...ealthcare/app/code/Ves/Brand/Model/Config/Source/Staticblock.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 47 | ERROR | The use of function addslashes() is forbidden
+----------------------------------------------------------------------
+
+
+FILE: ...re/app/code/Ves/Brand/Model/ResourceModel/AbstractCollection.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 157 | WARNING | Possible slow SQL method group detected
+----------------------------------------------------------------------
+
+
+FILE: .../demohealthcare/app/code/Ves/Brand/Model/ResourceModel/Brand.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 299 | WARNING | fetchAll() can be memory inefficient for large data
+     |         | sets.
+----------------------------------------------------------------------
+
+
+FILE: ...-workflow/www/demohealthcare/app/code/Ves/Brand/Model/Widget.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 77 | WARNING | Identical operator === is not used for testing the
+    |         | return value of strpos function
+ 81 | ERROR   | The use of function base64_decode() is forbidden
+ 85 | ERROR   | The use of function base64_decode() is forbidden
+----------------------------------------------------------------------
+
+
+FILE: .../demohealthcare/app/code/Ves/Brand/Observer/SaveProductBrand.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 64 | WARNING | Possible raw SQL statement 'DELETE FROM ' detected
+ 67 | WARNING | Possible raw SQL statement 'INSERT INTO ' detected
+----------------------------------------------------------------------
+
+
+FILE: ...flow/www/demohealthcare/app/code/Ves/Brand/Setup/InstallData.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 40 | WARNING | Private class member detected.
+ 57 | WARNING | The method parameter $context is never used
+----------------------------------------------------------------------
+
+
+FILE: ...ow/www/demohealthcare/app/code/Ves/Brand/Setup/InstallSchema.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 60 | WARNING | The method parameter $context is never used
+----------------------------------------------------------------------
+
+
+FILE: ...ow/www/demohealthcare/app/code/Ves/Brand/Setup/UpgradeSchema.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 35 | WARNING | The method parameter $context is never used
+----------------------------------------------------------------------
+
+
+FILE: ...app/code/Ves/Brand/Ui/Component/Listing/Columns/BrandActions.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 44 | WARNING | Private class member detected.
+----------------------------------------------------------------------
+
+
+FILE: ...app/code/Ves/Brand/Ui/Component/Listing/Columns/GroupActions.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 44 | WARNING | Private class member detected.
+----------------------------------------------------------------------
+
+
+FILE: .../wysiwyg/wysiwyg/tiny_mce/plugins/magentowidget/editor_plugin.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 13 | WARNING | Comment refers to a TODO task "Apply JStrim to reduce
+    |         | file size"
+----------------------------------------------------------------------
+
+
+FILE: ...hcare/app/code/Ves/Brand/view/frontend/web/css/bootstrap.min.css
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...re/app/code/Ves/Brand/view/frontend/web/css/owl.carousel.min.css
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...lthcare/app/code/Ves/Brand/view/frontend/web/js/bootstrap.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...healthcare/app/code/Ves/Brand/view/frontend/web/js/jquery.min.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...althcare/app/code/Ves/Brand/view/frontend/web/js/owl.carousel.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 33 WARNINGS AFFECTING 33 LINES
+----------------------------------------------------------------------
+    6 | WARNING | Comment refers to a TODO task
+    7 | WARNING | Comment refers to a TODO task
+    8 | WARNING | Comment refers to a TODO task
+    9 | WARNING | Comment refers to a TODO task
+   10 | WARNING | Comment refers to a TODO task
+   73 | WARNING | Comment refers to a TODO task
+   80 | WARNING | Comment refers to a TODO task
+  104 | WARNING | Comment refers to a TODO task
+  128 | WARNING | Comment refers to a TODO task
+  492 | WARNING | Comment refers to a TODO task
+  493 | WARNING | Comment refers to a TODO task
+  544 | WARNING | Comment refers to a TODO task
+  665 | WARNING | Comment refers to a TODO task
+  666 | WARNING | Comment refers to a TODO task
+  692 | WARNING | Comment refers to a TODO task
+  693 | WARNING | Comment refers to a TODO task
+  755 | WARNING | Comment refers to a TODO task
+  790 | WARNING | Comment refers to a TODO task
+  791 | WARNING | Comment refers to a TODO task
+  827 | WARNING | Comment refers to a TODO task
+  866 | WARNING | Comment refers to a TODO task
+ 1112 | WARNING | Comment refers to a TODO task
+ 1284 | WARNING | Comment refers to a TODO task
+ 1319 | WARNING | Comment refers to a TODO task
+ 1343 | WARNING | Comment refers to a TODO task
+ 1452 | WARNING | Comment refers to a TODO task
+ 1572 | WARNING | Comment refers to a TODO task
+ 1599 | WARNING | Comment refers to a TODO task
+ 1614 | WARNING | Comment refers to a TODO task
+ 2036 | WARNING | Comment refers to a TODO task
+ 2249 | WARNING | Comment refers to a TODO task
+ 2687 | WARNING | Comment refers to a TODO task
+ 2819 | WARNING | Comment refers to a TODO task
+----------------------------------------------------------------------
+
+Time: 30.11 secs; Memory: 76Mb
+
