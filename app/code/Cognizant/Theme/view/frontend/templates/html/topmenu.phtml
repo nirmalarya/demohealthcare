@@ -1,0 +1,50 @@
+<script type="text/javascript">
+$(document).ready(function($){
+	$('#mega-1').dcVerticalMegaMenu({
+		rowItems: '3',
+		speed: 'fast',
+		effect: 'slide',
+		direction: 'right'
+	});
+});
+</script>
+<?php
+	$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+	$request = $objectManager->get('Magento\Framework\App\Action\Context')->getRequest();
+	if ($request->getFullActionName() != 'cms_index_index') { ?>
+	<style>
+	.menu-title {
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	}
+	</style>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".dcjq-vertical-mega-menu").hide();		
+		$(".menu-title").click(function(){
+			$(".menu-title").css("background", "#005daa");
+			$(".dcjq-vertical-mega-menu").toggle();
+		});
+		$(".demo-container ").hover(function() {
+			$(".menu-title").css("background", "#005daa");
+			$(".dcjq-vertical-mega-menu").slideDown(200);
+		},
+		function() {
+			$(".dcjq-vertical-mega-menu").slideUp(200);
+			$(".menu-title").css("background", "rgba(0, 0, 0, 0) none repeat scroll 0 0");
+			});
+	});
+	</script>
+	<?php }
+
+?>
+<div class="wrap">
+<div class="demo-container clear">
+<div class="menu-title"><a href=#><span>Shop Products</span><span class="menu-title-icon"></span></a></div>
+<div class="dcjq-vertical-mega-menu">
+<ul id="mega-1" class="menu">
+<?php echo $this->getHtml() ?>
+</ul>
+</div>
+</div>
+</div>
+

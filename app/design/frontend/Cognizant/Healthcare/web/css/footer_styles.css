@@ -1,0 +1,47 @@
+/** footer and header custom css**/
+/*.page-footer, .copyright {
+	background: none;
+}
+
+.footer.content {
+	border-top: medium double #bbb9b9;
+	border-bottom: 1px solid #bbb9b9;
+}
+
+.signup-row, .header-top-content, .customer-service, .header-top-links {
+	float:right;
+	width: 100%;
+	text-align: right;
+	font-weight: 700;
+    font-size: 13px;
+}
+
+.signup-row {
+	width: 75%;
+	line-height: 32px;
+}
+
+.header-top-content {
+	color: #3bad2f;
+}
+
+.header-top-links { margin-right:-7px; }
+
+.page-header .panel.wrapper {
+  background-color: #c8dbeb;
+}
+
+.copyright li{
+	padding-left:6px;
+	display:inline;
+}
+.copyright a{
+	text-decoration:underline;
+	font-size:13px;
+	color:#565656;
+}
+
+.footer .links li{
+	font-weight: 700;
+    font-size: 13px;
+}*/

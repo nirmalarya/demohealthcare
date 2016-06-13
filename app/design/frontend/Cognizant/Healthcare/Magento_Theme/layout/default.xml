@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.panel">
+            <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
+                <arguments>
+                    <argument name="css_class" xsi:type="string">header links</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+		<referenceContainer name="page.top">
+		<container name="top.header"  htmlTag="div" htmlClass="top-header">
+		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html\topmenu.phtml" before="breadcrumbs"/>   
+		</container>
+        </referenceContainer>
+		<referenceBlock name="logo">
+				<arguments>
+					<argument name="logo_file" xsi:type="string">images/logo.jpg</argument>
+					<argument name="logo_img_width" xsi:type="number">60</argument>
+					<argument name="logo_img_height" xsi:type="number">39</argument>
+				</arguments>  
+        </referenceBlock>
+        <referenceContainer name="footer">
+            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="switch/stores.phtml"/>
+			<block class="Magento\Cms\Block\Block" name="footer_links_block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">footer_links_block</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+        <referenceBlock name="report.bugs" remove="true"/>
+		<referenceBlock name="store.menu" remove="true"/>
+        <move element="copyright" destination="before.body.end"/>
+		<move element="navigation.sections" destination="top.header" />
+		<move element="top.search" destination="top.header" after="store.categoriecollection"/> 
+		<move element="minicart" destination="top.header" before="top.search"/>
+		<move element="header.links" destination="top.header" after="top.search"/> 
+		
+		
+        <referenceBlock name="privacy-policy-link" remove="true"/>
+        <referenceBlock name="search-term-popular-link" remove="true"/>
+        <referenceBlock name="contact-us-link" remove="true"/>
+        <referenceBlock name="catalog-search-advanced-link" remove="true"/>
+        <referenceBlock name="sales-guest-form-link" remove="true"/>
+        <referenceContainer name="header-wrapper">
+            <block class="Magento\Cms\Block\Block" name="header_top_links">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">header_top_links</argument>
+                </arguments>
+            </block>			
+        </referenceContainer>
+		<!-- <move element="store_language" destination="header-wrapper" before="header_top_links" /> 			 -->
+    </body>
+</page>
