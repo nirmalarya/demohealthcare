@@ -41,7 +41,7 @@ if ($exist = ($block->getProductCollection() && $block->getProductCollection()->
                 <ol class="product-items <?php /* @escapeNotVerified */ echo $type; ?>">
                     <?php $iterator = 1; ?>
                     <?php foreach ($items as $_item): ?>
-					<?php if($iterator <=4) {?>
+					<?php if($iterator <=5) {?>
                         <?php /* @escapeNotVerified */ echo($iterator++ == 1) ? '<li class="product-item">' : '</li><li class="product-item">' ?>
                         <div class="product-item-info">
                             <a href="<?php /* @escapeNotVerified */ echo $block->getProductUrl($_item) ?>" class="product-item-photo">

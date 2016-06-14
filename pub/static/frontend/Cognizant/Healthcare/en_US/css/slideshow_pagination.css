@@ -49,34 +49,26 @@
     border-right: 1px solid #000;
     color: #fff;
     display: inline-block;
-    height: 50px;
+    height: 63px;
     list-style: outside none none;
     overflow: hidden;
     padding: 10px 10px 0;
     width: 162px;
 	cursor: pointer;
 }
-
-#slideshow_div  li.inact:hover{
-	/* The inactive state, highlighted on mouse over */
-	background:url(img/pic_bg.png) repeat;
-	cursor: pointer;
-	
-}
-
 #slideshow_div li.act,li.act:hover{
-	/* The active state of the page number */
-	background:url(img/active_bg.png) no-repeat;
-	cursor: pointer;
+    background: rgba(0, 0, 0, 0) url("images/active-slider-menu.png") no-repeat scroll 55px 43px;
+    border-bottom: 5px solid #004985;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 195px;
 }
 
 #slideshow_div li.act a{
 	cursor:default;
 	color:#005daa;
 	
-}
-#slideshow_div li.act{
-	border-bottom:2px solid #004985;
 }
 #slideshow_div li:first-child{
 	border: medium none;
@@ -85,6 +77,10 @@
 }
 #slideshow_div li:last-child{
 	border:none;
+}
+#slideshow_div li:last-child.act,#slideshow_div li:last-child.act:hover{
+	border-right:none;
+	border-bottom: 5px solid #004985;
 }
 #slideshow_div li a{
 	display:block;

@@ -14,24 +14,18 @@ h2 {font: normal 26px Arial, sans-serif; padding: 20px 0; margin: 0 0 30px 0;}
 /* Vertical Mega Menu Styles */
 .dcjq-vertical-mega-menu .menu{
 font: bold 13px Arial, sans-serif; 
-line-height: 16px; 
-position: relative; /* Required */
-border: 1px solid #999;
-border-bottom: none;
+}
+.dcjq-vertical-mega-menu ul li {
+    margin-bottom: 0;
 }
 .dcjq-vertical-mega-menu .menu li a {
 display: block; 
 color: #1d2b37; 
-padding: 6px 38px 6px 25px; 
+padding: 6px 38px 6px 10px; 
 text-shadow: 1px 1px 1px #fff; 
-text-decoration: underline;
+text-decoration: none;
 /*border-bottom: 1px solid #999;
 background: url(images/bg_nav.png) repeat-x 0 0;*/
-}
-.dcjq-vertical-mega-menu .menu li a:hover, .dcjq-vertical-mega-menu .menu li.mega-hover a {
-background-position: 0 -40px; 
-/*color: #fff; 
-text-shadow: 1px 1px 1px #000;*/
 }
 .dcjq-vertical-mega-menu .menu li a.dc-mega {
 position: relative;
@@ -40,37 +34,42 @@ position: relative;
 .dcjq-vertical-mega-menu .menu li a .dc-mega-icon {
 display: block; 
 position: absolute; 
-top: 14px; 
-right: 15px; 
-width: 6px; 
-height: 8px; 
-background: url(images/arrow_right.png) no-repeat -6px 0;
+top: 7px; 
+right: 3px; 
+width: 21px; 
+height: 17px; 
+background: url(images/left-submenu.png) no-repeat -6px 0;
 }
 .dcjq-vertical-mega-menu .menu li a:hover .dc-mega-icon, .dcjq-vertical-mega-menu .menu li.mega-hover a .dc-mega-icon {
-background-position: 0 0;
+    background: rgba(0, 0, 0, 0) url("images/leftsubmenu-active.png") no-repeat scroll -6px 0;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: -3px;
+    top: 8px;
+    width: 21px;
+	text-decoration: none;
+}
+.dcjq-vertical-mega-menu ul li:hover {
+    background: #fff;
 }
 /* Mega menu container */
 .dcjq-vertical-mega-menu .menu li .sub-container {
 position: absolute; /* Required */
-overflow: hidden;
 padding: 0 13px 17px 0; /* Padding for drop shadow */
 }
 .dcjq-vertical-mega-menu .menu li .sub-container .sub {
-border: none;
-padding: 15px 15px 5px 15px;
-background: #fff url(images/bg_grad_top.png) repeat-x 0 0;
-border-top: 1px solid #ccc; 
-border-right: 1px solid #bbb;
-border-bottom: 1px solid #bbb;
-border-left: 1px solid #ccc;
-box-shadow: 1px 1px 1px 1px #a4c5e3;
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #c8dbeb;
+    box-shadow: 1px 1px 1px 1px #a4c5e3;
+    padding: 10px 15px 0;
 }
 .dcjq-vertical-mega-menu .menu li .sub .row {
 width: 100%; overflow: hidden; /* Clear floats */
 }
 .dcjq-vertical-mega-menu .menu li .sub li {
 float: none; 
-width: 160px; 
+/*width: 160px; */
 font-size: 1em; 
 font-weight: normal;
 }
@@ -90,18 +89,12 @@ font-size: 0.9em;
 margin-bottom: 0;
 }
 .dcjq-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a {
-/* background: url(images/bg_nav.png) repeat-x 0 -40px;
-padding: 5px;
-text-shadow: 1px 1px 1px #000; */
-margin-bottom: 5px;
-text-transform: uppercase; 
-font-weight: bold; 
-color: #000;
-text-align: left;
-}
-.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a:hover {
-color: #000; 
-text-shadow: none;
+    color: #2b2b2b;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+	text-decoration: none;
+	margin-bottom: 5px;
 }
 .dcjq-vertical-mega-menu .menu .sub li.mega-hdr li {margin-bottom: 3px;}
 .dcjq-vertical-mega-menu .menu .sub li a {
@@ -110,7 +103,9 @@ font-weight: normal;
 text-transform: capitalize; font-size: 12px;
 }
 .dcjq-vertical-mega-menu .menu .sub li a:hover {
-color: #000;
+color: #004985;
+text-shadow: none;
+text-decoration: underline;
 /*background: #000 url(images/menu-title-arrow.png) no-repeat 5px 8px;*/
 }
 .dcjq-vertical-mega-menu .menu .sub ul li {
@@ -154,8 +149,8 @@ float: none;
     box-shadow: 1px 1px 1px 1px #a4c5e3;
 }
 #mega-1 ul li:hover{
-	background: #fff none repeat scroll 0 0;
-	text-decoration: underline;
+	background: none;
+
 }
 .top-header .block-search {
     float: left;
@@ -175,11 +170,13 @@ float: none;
     margin: 10px;
 }
 .demo-container span.menu-title-icon {
-    background-image: url("images/menu-title-arrow.png");
+    background-image: url("images/left-dropmenu.png");
     display: inline-block;
-    height: 10px;
+    height: 21px;
     margin-left: 64px;
-    width: 15px;
+    position: relative;
+    top: 5px;
+    width: 21px;
 }
 .header.links li:nth-child(2) {  
   font-weight:bold;

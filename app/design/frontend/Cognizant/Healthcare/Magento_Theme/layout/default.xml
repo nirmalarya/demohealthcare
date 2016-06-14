@@ -55,6 +55,6 @@
                 </arguments>
             </block>			
         </referenceContainer>
-		<!-- <move element="store_language" destination="header-wrapper" before="header_top_links" /> 			 -->
+		<move element="store_language" destination="header-wrapper" before="header_top_links" /> 			 
     </body>
 </page>
