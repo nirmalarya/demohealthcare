@@ -15,8 +15,8 @@
             </block>
         </referenceContainer>
 		<referenceContainer name="page.top">
-		<container name="top.header"  htmlTag="div" htmlClass="top-header">
-		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html\topmenu.phtml" before="breadcrumbs"/>   
+		<container name="top.header"  htmlTag="div" htmlClass="top-header" before="breadcrumbs">
+		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html\topmenu.phtml"/>   
 		</container>
         </referenceContainer>
 		<referenceBlock name="logo">
@@ -55,6 +55,6 @@
                 </arguments>
             </block>			
         </referenceContainer>
-		<!-- <move element="store_language" destination="header-wrapper" before="header_top_links" /> 			 -->
+		<move element="store_language" destination="header-wrapper" before="header_top_links" />
     </body>
 </page>
