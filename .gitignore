@@ -4,3 +4,4 @@ index.php
 index.php.sample
 .htaccess
 composer.json
+app/etc/env.php
