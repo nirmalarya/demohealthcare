@@ -49,10 +49,10 @@
     border-right: 1px solid #000;
     color: #fff;
     display: inline-block;
-    height: 63px;
+    height: 48px;
     list-style: outside none none;
     overflow: hidden;
-    padding: 10px 10px 0;
+    padding: 10px 0px 0;
     width: 162px;
 	cursor: pointer;
 }

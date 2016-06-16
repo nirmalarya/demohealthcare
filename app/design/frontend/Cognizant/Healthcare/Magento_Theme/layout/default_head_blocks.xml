@@ -9,6 +9,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 		<css src="css/slideshow_pagination.css"/>
+		<css src="css/styles.css"/>
 		<script src="js/slideshow_pagination.js"/>
     </head>
 </page>

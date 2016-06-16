@@ -28,6 +28,6 @@
 		<css src="Ves_All::lib/bootstrap/css/bootstrap-tiny.css" />
 		<css src="Ves_All::lib/colorbox/colorbox.css" />
 		<css src="Ves_All::lib/fancybox/jquery.fancybox.css" />
-        -->
-        <css src="Ves_All::css/fix_magento2.css" />
+        
+        <css src="Ves_All::css/fix_magento2.css" />-->
 </page>
