@@ -1,0 +1,6 @@
+var/
+pub/
+index.php
+index.php.sample
+.htaccess
+composer.json
