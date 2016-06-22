@@ -2590,3 +2590,8 @@
 	margin-right: 40px;
 	
 }
+
+/* Menu Override */
+.page-products .columns {
+    z-index: 0 !important;
+}
