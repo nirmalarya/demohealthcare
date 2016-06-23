@@ -2590,8 +2590,47 @@
 	margin-right: 40px;
 	
 }
+/*** login and Registration and forgot password & cart pages **/
+.base {
+    font-size: 26px;
+    font-weight: 700;
+}
+form#form-validate .fieldset .control{
+    width: 55%;
+}
+.cart-container .action.primary {
+	background: #3bad2f none repeat scroll 0 0;
+	font-family: "interface",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+}
+.action.primary {
+    background: #004985 none repeat scroll 0 0;
+	font-family: "interface",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+}
+.fieldset .legend span{
+	font-size: 20px;
+    font-weight: 700;
+}
+form#discount-coupon-form button{
+    background: rgba(0,73,133,0.5);
+    box-shadow:none;
+}
+.cart-container .form-cart button{
+	background: rgba(0,73,133,0.5);
+    box-shadow:none;
+}
+.product-item-name > a, .product.name a > a{
+	color:#004985 !important;
+	font-size: 16px;
+    font-weight: 700;
+}
+.cart-summary .summary {
+	color: #004985;
+	font-weight:700;
+}
 
-/* Menu Override */
+/** Menu Override **/
 .page-products .columns {
     z-index: 0 !important;
 }
