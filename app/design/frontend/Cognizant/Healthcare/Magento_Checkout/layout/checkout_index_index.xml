@@ -431,8 +431,7 @@
                 </arguments>
             </block>
         </referenceContainer>
-        <referenceContainer name="page.messages" remove="true"/>
-		<referenceContainer name="referenceBlock" remove="true"/>			
+        <referenceContainer name="page.messages" remove="true"/>		
 		<referenceBlock name="store.leftmenu" remove="true"/>		
     </body>
 </page>
