@@ -2738,7 +2738,6 @@
 .checkout-container .action-auth-toggle {
 	display: none;
 }
-
 /*** login and Registration and forgot password & cart pages **/
 .base {
     font-size: 26px;
@@ -2778,7 +2777,6 @@ form#discount-coupon-form button{
 	color: #004985;
 	font-weight:700;
 }
-
 /* responsive css */
 @media all and (min-width:1300px) {
 	/* body{
@@ -2853,6 +2851,9 @@ form#discount-coupon-form button{
         right: -30px !important;
         top: 40px !important;
         z-index: 9999;
-    }
-    
+    }  
+	
+/** Menu Override **/
+.page-products .columns {
+    z-index: 0 !important;
 }

@@ -2650,7 +2650,10 @@
 .header-top-links ul {
     margin: 0;
 }
-
+.block.widget .products-grid .product-item {
+    width: 16% !important;
+	margin-right:33px !important;	
+}
 .page-footer {
 	margin-top: 30px !important;
 }
@@ -2722,6 +2725,9 @@
 .page-header .switcher .options ul.dropdown, .page-footer .switcher .options ul.dropdown {
 	min-width: 0px;
 }
+.logo {
+	margin: 15px auto 0px 15px !important;
+}
 
 .brand-item {
 	float:left;
@@ -2744,7 +2750,6 @@
 .checkout-container .action-auth-toggle {
 	display: none;
 }
-
 /*** login and Registration and forgot password & cart pages **/
 .base {
     font-size: 26px;

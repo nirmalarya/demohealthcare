@@ -22,13 +22,13 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 	<body>
-		<referenceContainer name="content">
+		<!--referenceContainer name="content">
 			<block class="Ves\Brand\Block\BrandList" name="brand_list" after="promotions">
 				<arguments>
 					<argument name="number_item_per_column" xsi:type="string">1</argument>
 				</arguments>
 			</block>
-		</referenceContainer>
+		</referenceContainer -->
 		<!--move element="brand_list" after="promotions" /!-->
 	</body>
 </page>
