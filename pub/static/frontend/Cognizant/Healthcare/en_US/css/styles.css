@@ -558,7 +558,7 @@
         margin:35px auto 9px 5px !important;
     }
     .nav-toggle{
-        top:115px;
+        display:none;
     }
     .block-search .control {
         border-top: none;
@@ -566,16 +566,6 @@
     .top-header .block-search {
         float: none;
         width: 67%;
-    }
-    .contact_block{
-        //background-image: url("images/contact.png");
-       // background-repeat: no-repeat;
-        display: block;
-        margin: 42px 0 0 0;
-        font-size: 11px;
-    }
-    .contact_link {
-        color: #000000;
     }
     .columns {
         box-sizing: border-box;
@@ -605,6 +595,77 @@
         display: inline-block;
         //width: 100% !important;
     }
+    
+    //dropdown
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        border: none;
+        cursor: pointer;
+     }
+     .dropdown button {
+          background-color: #005daa !important;
+          padding-bottom: 9px !important;
+          width:87px !important;
+          box-shadow : none !important;
+          border-radius:0px !important;
+           border:none !important;
+          color: rgb(255, 255, 255);
+      }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .dropdown:hover .main-nav {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    .block-search { 
+        margin-top:-41px; 
+    }
+    //sign in
+    .header.links > li {
+        display:none;
+    }
+        .myaccount-dropdown {
+            display: inline-block;
+            margin-left: 21px;
+            margin-top: 27px;
+        }
+        .dropimage {
+            margin-left: 81px;
+            position: absolute;
+        }
+        .main-list {
+            display: none;
+
+        }
+        .main-list {
+            background-color: rgba(223, 237, 249, 1);
+            border-radius:5px;
+            height: 52px;
+            width: 123px;
+            margin-left: -43px;
+            position: absolute;
+        }
+        .myaccount-dropdown:hover .main-list {
+            display: block;
+        }
+        .myaccount-dropdown:hover .dropimage {
+            background-color: #3e8e41;
+        }	
+        .main-list > ul {
+            list-style: outside none none;
+        }
     /** custom end**/
     
 .womens-pants img
@@ -654,16 +715,6 @@
 	@media only screen and (max-width:767px)
 {
     /** Header responsive custom css  **/
-     //contact block
-    .contact_block{
-        display: block;
-        font-size: 11px;
-        margin-top:53px;
-        float: right;
-    }
-    .contact_block .contact_link {
-        color: #000000;
-    }
     .signup-row{
         display: none;
     }
@@ -680,7 +731,7 @@
        margin:35px auto 9px 5px !important;
     }
     .nav-toggle{
-        top:128px;
+        display:none;
     }
     .block-search .control {
         border-top: none;
@@ -707,6 +758,74 @@
             max-width : 100%;
             width: 152px !important;
     }
+    //dropdown
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        border: none;
+        cursor: pointer;
+     }
+     .dropdown button {
+          background-color: #005daa !important;
+          padding-bottom: 9px !important;
+          width:87px !important;
+          box-shadow : none !important;
+          border-radius:0px !important;
+          border:none !important;
+          color: rgb(255, 255, 255);
+      }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .dropdown:hover .main-nav {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    .block-search { 
+        margin-top:-41px; 
+    }
+    //sign in
+    .header.links {
+        //float:none !important;
+       // margin-top: -48px !important;
+        //width: 271px !important;
+        display:none;
+    } 
+        .dropimage {
+            margin-left: 81px;
+            position: absolute;
+        }
+        .main-list {
+            display: none;
+
+        }
+        .main-list {
+            background-color: rgba(223, 237, 249, 1);
+            border-radius:5px;
+            height: 52px;
+            width: 123px;
+            margin-left: -43px;
+            position: absolute;
+        }
+        .myaccount-dropdown:hover .main-list {
+            display: block;
+        }
+        .myaccount-dropdown:hover .dropimage {
+            background-color: #3e8e41;
+        }	
+        .main-list > ul {
+            list-style: outside none none;
+        }
     /** custom end**/
     
 .blocks-promo
@@ -948,12 +1067,25 @@
 }
 
 }
+@media all and (min-width:480px)
+{
+    .myaccount-dropdown {
+        display: inline-block;
+        margin-left: 91px;
+        margin-top: 32px;
+    }
+}
 	@media all and (min-width:640px),print
 {
      /** Header responsive custom css  **/
         .block.widget .product-item-info {
             max-width : 100%;
             width: 152px !important;
+        }
+        .myaccount-dropdown {
+            display: inline-block;
+            margin-left: 206px;
+            margin-top: 32px;
         }
      /** custom end**/
      
@@ -992,9 +1124,6 @@
 	@media all and (min-width:768px),print
 {
      /** custom css **/
-     .contact_block{ 
-        display: none;   
-     }
     .columns .sidebar-additional{
         display:none;
     }
@@ -1019,7 +1148,7 @@
         text-align: right;
         width: 100%;
     }
-	.logo{
+    .logo{
         margin:15px auto 15px 0 !important;
     }
     .top-header {
@@ -1036,22 +1165,62 @@
         max-width : 100%;
         width: 152px !important;
     }
-    //search and sign in
-    .header.links {
-        color: #fff;
-        float: left;
-        margin-left: 5px;
-	margin-top:2px;
-	text-align:right;
-    }
-    top-header .block-search {
-        float: left;
-        position: relative;
-        z-index:4;
-    }
-    .block-search {
-        width:234px;
-    }
+    //dropdown
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+                width:12em;
+        }
+        .dropdown button {
+              background: #005daa none repeat scroll 0 0 !important;
+               width:146px !important;
+               padding: 16px !important;
+               box-shadow : none !important;
+               border-radius:0px !important;
+               border:none !important;
+               color: rgb(255, 255, 255);
+               font-size: 15px;
+               text-decoration: none;
+        }
+        #main-menu {
+                float: left;
+                width: 146px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+             float:left;
+        }
+
+        .main-nav {
+            display: none;
+        }
+
+        .dropdown:hover .main-nav {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+                
+        //sign in 
+        .header.links {
+		color: #fff;
+		float: right;
+		font-size: 12px;
+		font-weight: bold;
+		margin-top: 2px;
+		text-align: right;
+		width: 112px;
+	}
+        .myaccount-dropdown {
+            display:none;
+        }
     /** custom css end **/
     
 .block-promo-hp
@@ -2635,7 +2804,9 @@
 #full_slideshow {
     margin-left: 0px;
 }
-
+.top-header .block-search {
+    padding: 4px 0 4px 10px;
+}
 #main_slides {
     height: 482px;
 	width:993px;
@@ -2650,10 +2821,7 @@
 .header-top-links ul {
     margin: 0;
 }
-.block.widget .products-grid .product-item {
-    width: 16% !important;
-	margin-right:33px !important;	
-}
+
 .page-footer {
 	margin-top: 30px !important;
 }
@@ -2725,9 +2893,6 @@
 .page-header .switcher .options ul.dropdown, .page-footer .switcher .options ul.dropdown {
 	min-width: 0px;
 }
-.logo {
-	margin: 15px auto 0px 15px !important;
-}
 
 .brand-item {
 	float:left;
@@ -2789,25 +2954,46 @@ form#discount-coupon-form button{
 	color: #004985;
 	font-weight:700;
 }
-
-
-
 /* responsive css */
-@media screen and (min-width:980px) {
-.top-header .block-search {
-    float: left;
-    position: relative;
-    width: 39%;
-    z-index: 4;
+@media all and (min-width:980px) {
+.dropdown button {
+              background: #005daa none repeat scroll 0 0 !important;
+               width:186px !important;
+               padding: 16px !important;
+               box-shadow : none !important;
+               border-radius:0px !important;
+               border:none !important;
+               color: rgb(255, 255, 255);
+              font-size: 15px;
+              text-decoration: none;
+        }
+        #main-menu {
+                float: left;
+                width: 186px;
+        }
+        .myaccount-dropdown {
+            display:none;
+        }
 }
-.header.links {
-    color: #fff;
-    float: left;
-	text-align:right;
-}
-.top-header .block-search {
-    padding: 4px 0 4px 10px;
-}
+@media all and (min-width:1280px) {
+.dropdown button {
+              background: #005daa none repeat scroll 0 0 !important;
+               width:248px !important;
+               padding: 16px !important;
+               box-shadow : none !important;
+               border-radius:0px !important;
+               border:none !important;
+               color: rgb(255, 255, 255);
+              font-size: 15px;
+              text-decoration: none;
+        }
+        #main-menu {
+                float: left;
+                width: 248px;
+        }
+        .myaccount-dropdown {
+            display:none;
+        }
 }
 
 @media all and (min-width:1300px) {
@@ -2827,7 +3013,7 @@ form#discount-coupon-form button{
             font-size: 13px;
             margin-left:-8px;
         }
-		.header-top-links {
+        .header-top-links {
              margin-right:-7px;
         }
         .customer-service {
@@ -2839,7 +3025,7 @@ form#discount-coupon-form button{
             top: 40px !important;
             z-index: 9999;
         }
-		.logo {
+        .logo {
             margin: 15px auto 15px 14px !important;
         }
         .top-header {
@@ -2855,8 +3041,61 @@ form#discount-coupon-form button{
         .promotions-banner-1, .promotions-banner-2 {	
             margin-right: 37px;
         }
-        .top-header .block-search {
-            padding: 4px 0 4px 10px;
+        //dropdown
+        .dropbtn {
+            background: #005daa none repeat scroll 0 0;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width:249px;
+        }
+        
+        .dropdown button {
+            background: #005daa none repeat scroll 0 0 !important;
+             width:249px !important;
+             padding: 16px !important;
+             box-shadow : none !important;
+             border-radius:0px !important;
+             border:none !important;
+             color: rgb(255, 255, 255);
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .main-nav {
+            display: none;
+        }
+
+        .dropdown:hover .main-nav {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background:#dfedf9 none repeat scroll 0 0;
+        }
+        #main-menu {
+                float: left;
+                width: 249px;
+        }
+        
+        //sign in 
+        .header.links {
+            color: #fff;
+            float: right;    
+            margin-top: 2px;
+            width: 215px;
+            text-align: right;
+            margin-right: 15px;
+        }
+        .myaccount-dropdown {
+            display:none;
         }
 	 
 }
@@ -2886,8 +3125,13 @@ form#discount-coupon-form button{
         right: -30px !important;
         top: 40px !important;
         z-index: 9999;
+    }  
+    .block.widget .products-grid .product-item {
+        width: 16% !important;
+        margin-right:33px !important;	
     }
-    .top-header .block-search {
-        padding: 4px 0 4px 10px;
-    }
+}	
+/** Menu Override **/
+.page-products .columns {
+    z-index: 0 !important;
 }
