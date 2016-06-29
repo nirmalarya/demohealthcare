@@ -8,8 +8,18 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-		<css src="css/slideshow_pagination.css"/>
+		<!--css src="css/slideshow_pagination.css"/-->
 		<css src="css/styles.css"/>
-		<script src="js/slideshow_pagination.js"/>
+		<css src="css/flexslider.css"/>
+		<!--script src="js/slideshow_pagination.js"/-->
+		
+		<css src="css/sm-core-css.css"/>
+		<css src="css/sm-blue.css"/>
+		
+		<script src="js/jquery.flexslider.js"/>
+		<script src="js/commonpage.js"/>
+		
+		<script src="js/jquery.smartmenus.js"/>
+		
     </head>
 </page>

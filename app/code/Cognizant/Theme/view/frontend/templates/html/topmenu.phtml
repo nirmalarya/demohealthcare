@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<!--script type="text/javascript">
 $(document).ready(function($){
 	$('#mega-1').dcVerticalMegaMenu({
 		rowItems: '3',
@@ -7,8 +7,8 @@ $(document).ready(function($){
 		direction: 'right'
 	});
 });
-</script>
-<?php
+</script-->
+<?php /*
 	$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
 	$request = $objectManager->get('Magento\Framework\App\Action\Context')->getRequest();
 	if ($request->getFullActionName() != 'cms_index_index') { ?>
@@ -17,7 +17,7 @@ $(document).ready(function($){
 		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 	}
 	</style>
-	<script type="text/javascript">
+	<!--script type="text/javascript">
 	$(document).ready(function(){
 		$(".dcjq-vertical-mega-menu").hide();		
 		$(".menu-title").click(function(){
@@ -33,7 +33,7 @@ $(document).ready(function($){
 			$(".menu-title").css("background", "rgba(0, 0, 0, 0) none repeat scroll 0 0");
 			});
 	});
-	</script>
+	</script-->
 	<?php }
 
 ?>
@@ -46,5 +46,86 @@ $(document).ready(function($){
 </ul>
 </div>
 </div>
+</div--> */ ?>
+
+<div class="dropdown">
+<button class="dropbtn">Shop Products</button>
+<nav id="main-nav" role="navigation" class="main-nav">
+	<ul id="main-menu" class="sm sm-vertical sm-blue">
+		<?php echo $this->getHtml() ?>
+	</ul>
+</nav>
 </div>
+<!--script type="text/javascript">
+	jQuery(function() {
+		jQuery('#main-menu').smartmenus({
+			mainMenuSubOffsetX: 1,
+			mainMenuSubOffsetY: -8,
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+	});
+</script-->
+
+<script type="text/javascript">
+	// <![CDATA[
+	require(['jquery','js/jquery.smartmenus'], function($,smartmenus){
+          $(window).load(function(){
+                 jQuery('#main-menu').smartmenus({
+			mainMenuSubOffsetX: 1,
+			mainMenuSubOffsetY: -8,
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+           });
+		
+	});
+	// ]]>
+	
+	$(document).ready(function(){
+		//alert(jQuery(window).width());
+		if(window.location.href == "http://localhost:8080/demohealthcare/" && jQuery(window).width() >=768){
+			//alert(window.location.href + "desktop load");
+			//console.log(jQuery(window).width());
+			jQuery(".main-nav").css("display","block");
+		}
+		if(jQuery(window).width() <=767){
+		jQuery(".header.links.checkout-header").css("display","none");
+		}
+		
+		$(window).resize(function(){
+			if(window.location.href == "http://localhost:8080/demohealthcare/" && jQuery(window).width() >=768){
+				//alert(window.location.href + "desktop resize");
+				//console.log(jQuery(window).width());
+				jQuery(".main-nav").css("display","block");
+				jQuery(".header.links.checkout-header").css("display","block");
+			}else{
+				jQuery(".main-nav").css("display","none");
+				jQuery(".header.links.checkout-header").css("display","none");
+				$( ".dropdown" )
+				  .mouseenter(function() {
+					jQuery(".main-nav").css("display","block");
+				  })
+				  .mouseleave(function() {
+					if(jQuery(window).width() <=767){
+						jQuery(".main-nav").css("display","none");
+					}
+				  });
+			}
+		});
+		 $( ".dropdown" )
+		  .mouseenter(function() {
+			jQuery(".main-nav").css("display","block");
+		  })
+		  .mouseleave(function() {
+			if(jQuery(window).width() <=767){
+						jQuery(".main-nav").css("display","none");
+					}
+		  });
+		
+	});
+	
+</script>
+
+
 

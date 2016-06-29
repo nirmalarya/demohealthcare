@@ -181,14 +181,7 @@ float: none;
 .header.links li:nth-child(2) {  
   font-weight:bold;
 }
-.header.links {
-    color: #fff;
-    float: right;    
-    margin-top: 2px;
-    width: 215px;
-	text-align: right;
-	margin-right: 15px;
-}
+
 .customer-menu .header.links {
     background: #a4c5e3 none repeat scroll 0 0;
     color: #fff;
@@ -209,6 +202,43 @@ float: none;
 .header.links > li {
     margin: 0 0 4px;
 }
+
+@media (min-width: 768px) {
+	.header.links {
+		color: #fff;
+		float: right;
+		font-size: 12px;
+		font-weight: bold;
+		margin-top: 2px;
+		text-align: right;
+		width: 112px;
+	}
+}
+@media (min-width: 980px) {
+	.header.links {
+		color: #fff;
+		float: right;
+		font-size: inherit;
+		font-weight: bold;
+		margin-top: 2px;
+		text-align: right;
+		width: 132px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.header.links {
+		color: #fff;
+		float: right;  
+		font-size: inherit;
+		font-weight: bold;
+		margin-top: 2px;
+		width: 215px;
+		text-align: right;
+		margin-right: 15px;
+	}
+}
+
 .top-header .customer-welcome li a ,.top-header .customer-welcome li a:hover{
 	color: #004985;
 }

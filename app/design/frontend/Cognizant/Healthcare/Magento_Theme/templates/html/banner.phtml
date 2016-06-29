@@ -1,0 +1,59 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/**
+ * @var \Magento\Theme\Block\Html\Header $block
+ */
+?>
+<body class="loading">
+<div id="container" class="cf">
+	<div id="main" role="main">
+      <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img src="<?php echo $this->getViewFileUrl('images/slider/fastrun-tris-sds-running-buffer.jpg'); ?>" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="<?php echo $this->getViewFileUrl('images/slider/honeywell-eye-saline-personal-eyewash.jpg'); ?>" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="<?php echo $this->getViewFileUrl('images/slider/summer-savings.jpg'); ?>" />
+  	    		</li>
+  	    		<li>
+					<img src="<?php echo $this->getViewFileUrl('images/slider/fastrun-tris-sds-running-buffer.jpg'); ?>" />
+  	    		</li>
+				<li>
+					<img src="<?php echo $this->getViewFileUrl('images/slider/a-chemical-for-every-experiment.jpg'); ?>" />
+  	    		</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+  </body>
+<script type="text/javascript">
+	// <![CDATA[
+	require(['jquery','js/jquery.flexslider'], function($,flexslider){
+          $(window).load(function(){
+                 $('.flexslider').flexslider({ 
+					animation: "slide",
+					'directionNav':false,
+					start: function(slider){
+						$('.flexslider').resize();
+					  //$('body').removeClass('loading');
+					   //$(".header.links.checkout-header").remove();
+					   $('.flexslider').resize();
+					}
+				  });
+				  $('.flexslider').resize();
+           });
+		
+	});
+	// ]]>
+</script>

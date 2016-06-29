@@ -15,7 +15,7 @@
 
 & when (@media-common = true) {
 
-//  Popup working with dropdown dialog
+    //  Popup working with dropdown dialog
     .ui-dialog {
         &.popup {
             .action {
@@ -50,6 +50,17 @@
         }
     }
 
+    .popup {
+        .actions-toolbar {
+            .action {
+                &.cancel {
+                    &:extend(.abs-action-button-as-link all);
+                    font-weight: @font-weight__regular;
+                }
+            }
+        }
+    }
+
     .popup-pointer {
         .lib-pointer(
         @_size: @popup-marker__size,
@@ -65,7 +76,29 @@
 }
 
 //
-//    Desktop
+//  Mobile
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    .popup-content {
+        .fieldset {
+            .actions-toolbar {
+                .secondary {
+                    display: inline-block;
+                    float: none;
+                }
+                .action {
+                    &.cancel {
+                        margin-top: @actions-toolbar-actions-links-secondary__margin-top;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//
+//  Desktop
 //  _____________________________________________
 
 .media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__s) {

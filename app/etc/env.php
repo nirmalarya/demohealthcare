@@ -20,7 +20,7 @@ return array (
       'default' => 
       array (
         'host' => 'localhost',
-        'dbname' => 'demohealthcare',
+        'dbname' => 'www_sampledata1_com',
         'username' => 'root',
         'password' => '',
         'active' => '1',

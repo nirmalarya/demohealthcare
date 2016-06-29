@@ -18,8 +18,21 @@ a.action.primary {
 }
 
 button {
-    &:active {
+    &:not(.primary) {
         .lib-css(box-shadow, @button__shadow);
+        &:active {
+            .lib-css(box-shadow, @button__shadow-active);
+        }
+    }
+}
+
+body {
+    &:not(._keyfocus) {
+        button {
+            &:focus {
+                box-shadow: none;
+            }
+        }
     }
 }
 
