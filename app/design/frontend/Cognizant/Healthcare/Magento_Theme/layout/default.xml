@@ -38,7 +38,7 @@
 		<referenceBlock name="store.menu" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
 		<move element="navigation.sections" destination="top.header" />
-		<move element="top.search" destination="top.header" after="store.categoriecollection"/> 
+		<move element="top.search" destination="top.header" after="store.leftmenu"/> 
 		<move element="minicart" destination="top.header" before="top.search"/>
 		<move element="header.links" destination="top.header" after="top.search"/> 
 		

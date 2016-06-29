@@ -539,7 +539,7 @@
 {
 	margin-bottom:0
 }
-	@media only screen and (max-width:399px)
+@media only screen and (max-width:399px)
 {
     /** custom css **/
     .signup-row{
@@ -712,7 +712,7 @@
 }
 
 }
-	@media only screen and (max-width:767px)
+@media only screen and (max-width:767px)
 {
     /** Header responsive custom css  **/
     .signup-row{
@@ -1067,6 +1067,7 @@
 }
 
 }
+
 @media all and (min-width:480px)
 {
     .myaccount-dropdown {
@@ -1075,7 +1076,8 @@
         margin-top: 32px;
     }
 }
-	@media all and (min-width:640px),print
+
+@media all and (min-width:640px),print
 {
      /** Header responsive custom css  **/
         .block.widget .product-item-info {
@@ -1121,7 +1123,7 @@
 }
 
 }
-	@media all and (min-width:768px),print
+@media all and (min-width:768px),print
 {
      /** custom css **/
     .columns .sidebar-additional{
@@ -2800,6 +2802,9 @@
     margin-top:0px;
 }
 
+.minicart-wrapper .action.showcart .counter.qty{
+	//display:none;
+}
 
 #full_slideshow {
     margin-left: 0px;
@@ -3125,12 +3130,13 @@ form#discount-coupon-form button{
         right: -30px !important;
         top: 40px !important;
         z-index: 9999;
-    }  
+    } 
     .block.widget .products-grid .product-item {
         width: 16% !important;
         margin-right:33px !important;	
     }
-}	
+}
+
 /** Menu Override **/
 .page-products .columns {
     z-index: 0 !important;
