@@ -680,6 +680,16 @@
         .main-list > ul {
             list-style: outside none none;
         }
+        .page-products .columns {
+            padding-top: 0px !important;
+        }
+        .page-products .sorter {
+            position:relative !important;
+            top:-61px !important;
+        }
+        .toolbar-amount{
+            padding:14px 0;
+        }
     /** custom end**/
     
 .womens-pants img
@@ -1093,6 +1103,16 @@
         display: inline-block;
         margin-left: 91px;
         margin-top: 32px;
+    }
+    .page-products .columns {
+            padding-top: 0px !important;
+    }
+    .page-products .sorter {
+        position:relative !important;
+        top:-61px !important;
+    }
+    .toolbar-amount{
+        padding:14px 0;
     }
 }
 	@media all and (min-width:640px),print
