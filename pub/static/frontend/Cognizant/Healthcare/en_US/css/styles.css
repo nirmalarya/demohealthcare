@@ -2134,11 +2134,11 @@
 }
 
 /* CSS to adjust sign in and search section */
-.search .label, #container, .page-main, .page-footer , .copyright{
+.search .label, #container, .page-main, .page-footer , .copyright, .block-collapsible-nav {
 	float: left;
 }
 
-#container, .page-footer{	
+#container, .page-footer, .block-collapsible-nav {	
 	width: 100%;	
 }
 
@@ -2162,6 +2162,13 @@ ul.header.links {
 	font-weight: 700;
 }
 
+.header  .welcome {
+	float: right;
+	color: #ffffff;
+}
+.customer-menu {
+	display:none;
+}
 
 
 }
