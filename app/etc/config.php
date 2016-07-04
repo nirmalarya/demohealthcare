@@ -91,7 +91,7 @@ return array (
     'Magento_ConfigurableSampleData' => 1,
     'Magento_OfflineShippingSampleData' => 1,
     'Magento_CatalogRuleSampleData' => 1,
-    'Magento_SalesSampleData' => 1,
+    'Magento_SalesSampleData' => 0,
     'Magento_Captcha' => 1,
     'Magento_ThemeSampleData' => 1,
     'Magento_ReviewSampleData' => 1,
@@ -122,7 +122,7 @@ return array (
     'Magento_WidgetSampleData' => 1,
     'Magento_Wishlist' => 1,
     'Magento_WishlistSampleData' => 1,
-    'Ves_All' => 1,
-    'Ves_Brand' => 1,
+    'Ves_All' => 0,
+    'Ves_Brand' => 0,
   ),
 );

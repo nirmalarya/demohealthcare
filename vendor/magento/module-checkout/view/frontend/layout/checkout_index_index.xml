@@ -432,5 +432,8 @@
             </block>
         </referenceContainer>
         <referenceContainer name="page.messages" remove="true"/>
+		<referenceBlock name="store.leftmenu" remove="true"/>	
+		<referenceBlock name="page.top" remove="true"/>	
+		<referenceBlock name="header_top_links" remove="true"/>	
     </body>
 </page>

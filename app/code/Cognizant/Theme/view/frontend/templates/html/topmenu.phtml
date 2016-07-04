@@ -57,58 +57,63 @@ $(document).ready(function($){
 </nav>
 </div>
 <!--script type="text/javascript">
-	jQuery(function() {
-		jQuery('#main-menu').smartmenus({
+$(document).ready(function($){
+	$('#main-menu').smartmenus({
 			mainMenuSubOffsetX: 1,
 			mainMenuSubOffsetY: -8,
 			subMenusSubOffsetX: 1,
 			subMenusSubOffsetY: -8
 		});
-	});
-</script-->
+});
 
+
+</script-->
 <script type="text/javascript">
-	// <![CDATA[
+  // <![CDATA[ 
 	require(['jquery','js/jquery.smartmenus'], function($,smartmenus){
+		 $.noConflict();
           $(window).load(function(){
-                 jQuery('#main-menu').smartmenus({
-			mainMenuSubOffsetX: 1,
-			mainMenuSubOffsetY: -8,
-			subMenusSubOffsetX: 1,
-			subMenusSubOffsetY: -8
-		});
+                 $('#main-menu').smartmenus({
+					mainMenuSubOffsetX: 1,
+					mainMenuSubOffsetY: -8,
+					subMenusSubOffsetX: 1,
+					subMenusSubOffsetY: -8
+				});
            });
-		
 	});
-	// ]]>
+	// ]]> 
+	
+	
 	
 	$(document).ready(function(){
-		//alert(jQuery(window).width());
-		if(window.location.href == "http://localhost:8080/demohealthcare/" && jQuery(window).width() >=768){
-			//alert(window.location.href + "desktop load");
-			//console.log(jQuery(window).width());
+		//if(window.location.href == "http://10.141.74.207:8012/demohealthcare/" && jQuery(window).width() >=768){
+		//if(window.location.origin == window.location.href && jQuery(window).width() >=768){
+		if (jQuery('body').is('.cms-home') && jQuery(window).width() >=768) {
 			jQuery(".main-nav").css("display","block");
 		}
-		if(jQuery(window).width() <=767){
-		jQuery(".header.links.checkout-header").css("display","none");
-		}
-		
+		/*if(jQuery(window).width() <=767){
+			//jQuery(".header.links.checkout-header").css("display","none");
+		}*/
 		$(window).resize(function(){
-			if(window.location.href == "http://localhost:8080/demohealthcare/" && jQuery(window).width() >=768){
-				//alert(window.location.href + "desktop resize");
-				//console.log(jQuery(window).width());
+			//if(window.location.href == "http://10.141.74.207:8012/demohealthcare/" && jQuery(window).width() >=768){
+			//if(window.location.origin == window.location.href && jQuery(window).width() >=768){
+			if (jQuery('body').is('.cms-home') && jQuery(window).width() >=768) {
 				jQuery(".main-nav").css("display","block");
-				jQuery(".header.links.checkout-header").css("display","block");
+				//jQuery(".header.links.checkout-header").css("display","block");
 			}else{
 				jQuery(".main-nav").css("display","none");
-				jQuery(".header.links.checkout-header").css("display","none");
+				//jQuery(".header.links.checkout-header").css("display","none");
 				$( ".dropdown" )
 				  .mouseenter(function() {
 					jQuery(".main-nav").css("display","block");
+					if(jQuery(window).width() <=767){
+						 jQuery(".block-search .label").css("display","none");
+					}
 				  })
 				  .mouseleave(function() {
 					if(jQuery(window).width() <=767){
 						jQuery(".main-nav").css("display","none");
+						jQuery(".block-search .label").css("display","block");
 					}
 				  });
 			}
@@ -116,15 +121,18 @@ $(document).ready(function($){
 		 $( ".dropdown" )
 		  .mouseenter(function() {
 			jQuery(".main-nav").css("display","block");
+			if(jQuery(window).width() <=767){
+						 jQuery(".block-search .label").css("display","none");
+					}
 		  })
 		  .mouseleave(function() {
-			if(jQuery(window).width() <=767){
-						jQuery(".main-nav").css("display","none");
-					}
+				if(jQuery(window).width() <=767 || window.location.href != "http://10.141.74.207:8012/demohealthcare/"){
+							jQuery(".main-nav").css("display","none");
+							jQuery(".block-search .label").css("display","block");
+				}
+				
 		  });
-		
-	});
-	
+	});	
 </script>
 
 
