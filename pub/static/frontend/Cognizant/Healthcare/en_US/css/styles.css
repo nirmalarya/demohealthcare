@@ -2134,11 +2134,11 @@
 }
 
 /* CSS to adjust sign in and search section */
-.search .label, #container {
+.search .label, #container, .page-main, .page-footer , .copyright{
 	float: left;
 }
 
-#container {	
+#container, .page-footer{	
 	width: 100%;	
 }
 
@@ -2161,6 +2161,8 @@ ul.header.links {
 	margin: -40px 65px 0px 0px;
 	font-weight: 700;
 }
+
+
 
 }
 	@media only screen and (max-width:767px)
