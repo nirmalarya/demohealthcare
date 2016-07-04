@@ -2133,6 +2133,35 @@
 	margin-left:-50px
 }
 
+/* CSS to adjust sign in and search section */
+.search .label, #container {
+	float: left;
+}
+
+#container {	
+	width: 100%;	
+}
+
+.search .label {
+	margin-left: 100px;
+}
+
+.top-header .block-search {
+	width: 50%;
+}
+
+.search #search {
+	float:left;
+	width: auto;
+}
+
+ul.header.links {
+	float: right;
+	font-size: 10px;
+	margin: -40px 65px 0px 0px;
+	font-weight: 700;
+}
+
 }
 	@media only screen and (max-width:767px)
 {
@@ -2427,7 +2456,7 @@
 .top-header {
             /*margin: auto 50px 20px;*/
 			margin: auto 0px 20px;
-			padding:0px 10px 0px 30px;
+			padding:0px 10px 0px 18px;
         }
 .block-promo-hp
 {
@@ -3038,7 +3067,7 @@ form#discount-coupon-form button{
 		
 		.top-header {         
 			margin: auto 0px 20px;
-			padding: 0px 10px 0px 28px;
+			padding: 0px 10px 0px 18px;
         }
 		
 		.header.links {
