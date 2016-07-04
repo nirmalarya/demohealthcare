@@ -1,53 +1,3 @@
-<!--script type="text/javascript">
-$(document).ready(function($){
-	$('#mega-1').dcVerticalMegaMenu({
-		rowItems: '3',
-		speed: 'fast',
-		effect: 'slide',
-		direction: 'right'
-	});
-});
-</script-->
-<?php /*
-	$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-	$request = $objectManager->get('Magento\Framework\App\Action\Context')->getRequest();
-	if ($request->getFullActionName() != 'cms_index_index') { ?>
-	<style>
-	.menu-title {
-		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-	}
-	</style>
-	<!--script type="text/javascript">
-	$(document).ready(function(){
-		$(".dcjq-vertical-mega-menu").hide();		
-		$(".menu-title").click(function(){
-			$(".menu-title").css("background", "#005daa");
-			$(".dcjq-vertical-mega-menu").toggle();
-		});
-		$(".demo-container ").hover(function() {
-			$(".menu-title").css("background", "#005daa");
-			$(".dcjq-vertical-mega-menu").slideDown(200);
-		},
-		function() {
-			$(".dcjq-vertical-mega-menu").slideUp(200);
-			$(".menu-title").css("background", "rgba(0, 0, 0, 0) none repeat scroll 0 0");
-			});
-	});
-	</script-->
-	<?php }
-
-?>
-<div class="wrap">
-<div class="demo-container clear">
-<div class="menu-title"><a href=#><span>Shop Products</span><span class="menu-title-icon"></span></a></div>
-<div class="dcjq-vertical-mega-menu">
-<ul id="mega-1" class="menu">
-<?php echo $this->getHtml() ?>
-</ul>
-</div>
-</div>
-</div--> */ ?>
-
 <div class="dropdown">
 <button class="dropbtn">Shop Products</button>
 <nav id="main-nav" role="navigation" class="main-nav">
@@ -56,18 +6,7 @@ $(document).ready(function($){
 	</ul>
 </nav>
 </div>
-<!--script type="text/javascript">
-$(document).ready(function($){
-	$('#main-menu').smartmenus({
-			mainMenuSubOffsetX: 1,
-			mainMenuSubOffsetY: -8,
-			subMenusSubOffsetX: 1,
-			subMenusSubOffsetY: -8
-		});
-});
 
-
-</script-->
 <script type="text/javascript">
   // <![CDATA[ 
 	require(['jquery','js/jquery.smartmenus'], function($,smartmenus){
@@ -82,27 +21,17 @@ $(document).ready(function($){
            });
 	});
 	// ]]> 
-	
-	
-	
-	$(document).ready(function(){
-		//if(window.location.href == "http://10.141.74.207:8012/demohealthcare/" && jQuery(window).width() >=768){
-		//if(window.location.origin == window.location.href && jQuery(window).width() >=768){
+		
+	$(document).ready(function(){		
 		if (jQuery('body').is('.cms-home') && jQuery(window).width() >=768) {
 			jQuery(".main-nav").css("display","block");
 		}
-		/*if(jQuery(window).width() <=767){
-			//jQuery(".header.links.checkout-header").css("display","none");
-		}*/
+		
 		$(window).resize(function(){
-			//if(window.location.href == "http://10.141.74.207:8012/demohealthcare/" && jQuery(window).width() >=768){
-			//if(window.location.origin == window.location.href && jQuery(window).width() >=768){
 			if (jQuery('body').is('.cms-home') && jQuery(window).width() >=768) {
-				jQuery(".main-nav").css("display","block");
-				//jQuery(".header.links.checkout-header").css("display","block");
+				jQuery(".main-nav").css("display","block");		
 			}else{
-				jQuery(".main-nav").css("display","none");
-				//jQuery(".header.links.checkout-header").css("display","none");
+				jQuery(".main-nav").css("display","none");				
 				$( ".dropdown" )
 				  .mouseenter(function() {
 					jQuery(".main-nav").css("display","block");
@@ -126,7 +55,7 @@ $(document).ready(function($){
 					}
 		  })
 		  .mouseleave(function() {
-				if(jQuery(window).width() <=767 || window.location.href != "http://10.141.74.207:8012/demohealthcare/"){
+				if(jQuery(window).width() <=767 || !(jQuery('body').is('.cms-home'))){
 							jQuery(".main-nav").css("display","none");
 							jQuery(".block-search .label").css("display","block");
 				}
