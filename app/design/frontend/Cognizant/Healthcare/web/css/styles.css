@@ -541,7 +541,21 @@
 }
 	@media only screen and (max-width:399px)
 {
+	
     /** custom css **/
+	
+	.opc-estimated-wrapper
+	{
+		background-color: #004985;
+	}
+	
+	.minicart-wrapper .action.showcart {
+		background-image: url("../images/cart.png") !important;
+	}
+	
+	.opc-estimated-wrapper .estimated-block {
+		color: #ffffff;
+	}
     .signup-row{
         display: none;
     }
@@ -714,6 +728,11 @@
 }
 	@media only screen and (max-width:767px)
 {
+
+	.block-collapsible-nav {
+		top:0px !important;
+	}
+
     /** Header responsive custom css  **/
     .signup-row{
         display: none;
@@ -723,7 +742,8 @@
     }
     .top-header{
 	background-color: #004985;
-        height: 50px;
+        /*height: 50px;*/
+		height: 49px;
         margin: inherit;
         width: 100%;
     }
@@ -1123,6 +1143,20 @@
 }
 	@media all and (min-width:768px),print
 {
+	.top-header .block-search {
+	width: 45%;
+}
+.header.links {
+	/*width: 132px;*/
+	width: auto;
+}	
+		
+	.top-header {
+		/*margin: auto 50px 20px;*/
+		margin: auto 0px 20px;
+		padding:0px 10px 0px 30px;
+	}
+		
      /** custom css **/
     .columns .sidebar-additional{
         display:none;
@@ -1178,7 +1212,8 @@
         .dropdown button {
               background: #005daa none repeat scroll 0 0 !important;
                width:146px !important;
-               padding: 16px !important;
+               /*padding: 16px !important;*/
+			   padding: 17px !important;
                box-shadow : none !important;
                border-radius:0px !important;
                border:none !important;
@@ -2099,9 +2134,52 @@
 	margin-left:-50px
 }
 
+/* CSS to adjust sign in and search section */
+.search .label, #container, .page-main, .page-footer , .copyright, .block-collapsible-nav {
+	float: left;
+}
+
+#container, .page-footer, .block-collapsible-nav {	
+	width: 100%;	
+}
+
+.search .label {
+	margin-left: 100px;
+}
+
+.top-header .block-search {
+	width: 50%;
+}
+
+.search #search {
+	float:left;
+	width: auto;
+}
+
+ul.header.links {
+	float: right;
+	font-size: 10px;
+	margin: -40px 65px 0px 0px;
+	font-weight: 700;
+}
+
+.header  .welcome {
+	float: right;
+	color: #ffffff;
+}
+.customer-menu {
+	display:none;
+}
+
+
 }
 	@media only screen and (max-width:767px)
 {
+	
+.block-collapsible-nav {
+	top:0px !important;
+}
+	
 .blocks-promo
 {
 	margin-left:-15px;
@@ -2377,6 +2455,20 @@
 }
 	@media all and (min-width:768px),print
 {
+
+.top-header .block-search {
+	width: 45%;
+}
+.header.links {
+	/*width: 132px;*/
+	width: auto;
+}
+
+.top-header {
+            /*margin: auto 50px 20px;*/
+			margin: auto 0px 20px;
+			padding:0px 10px 0px 18px;
+        }
 .block-promo-hp
 {
 	margin:0 -8px
@@ -2666,6 +2758,8 @@
 	float:left
 }
 
+
+
 }
 
 
@@ -2675,8 +2769,7 @@
 }
 
 .footer.content {
-	border-top: 4px double #bbb9b9 !important;
-	border-bottom: 1px solid #bbb9b9 !important;
+	
 }
 
 .customer-service span.cust_text {
@@ -2824,6 +2917,8 @@
 
 .page-footer {
 	margin-top: 30px !important;
+	border-top: 4px double #bbb9b9 !important;
+	border-bottom: 1px solid #bbb9b9 !important;
 }
 
 .footer.content .links a {
@@ -2845,8 +2940,8 @@
 }
 
 .copyright {
-	text-align: right;
-	margin: -10px 25px 0px 0px;
+	text-align: center;
+	margin: 5px 25px 0px 0px;
 }
 
 .copyright a{
@@ -2912,9 +3007,9 @@
     margin: 5px 0px 0px 20px;
 }
 
-.checkout-container .action-auth-toggle {
+/*.checkout-container .action-auth-toggle {
 	display: none;
-}
+}*/
 /*** login and Registration and forgot password & cart pages **/
 .base {
     font-size: 26px;
@@ -2923,43 +3018,49 @@
 form#form-validate .fieldset .control{
     width: 55%;
 }
-.cart-container .action.primary {
-	background: #3bad2f none repeat scroll 0 0;
-	font-family: "interface",Helvetica,Arial,sans-serif;
-	font-weight: 700;
-}
 .action.primary {
     background: #004985 none repeat scroll 0 0;
-	font-family: "interface",Helvetica,Arial,sans-serif;
-	font-weight: 700;
+    font-family: "interface",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 .fieldset .legend span{
-	font-size: 20px;
+                font-size: 20px;
     font-weight: 700;
 }
 form#discount-coupon-form button{
-    background: rgba(0,73,133,0.5);
+    background: #004985;
     box-shadow:none;
+    color:white;
 }
 .cart-container .form-cart button{
-	background: rgba(0,73,133,0.5);
+    background: #004985;
     box-shadow:none;
+    color:white;
 }
 .product-item-name > a, .product.name a > a{
-	color:#004985 !important;
-	font-size: 16px;
+                color:#004985 !important;
+                font-size: 16px;
     font-weight: 700;
 }
 .cart-summary .summary {
-	color: #004985;
-	font-weight:700;
+                color: #004985;
+                font-weight:700;
 }
+
+.customer-welcome ul {
+	/*left: -293px;*/
+}
+.header .links li{
+	padding: 10px 0px 5px 0px;	
+}
+
 /* responsive css */
 @media all and (min-width:980px) {
 .dropdown button {
               background: #005daa none repeat scroll 0 0 !important;
                width:186px !important;
-               padding: 16px !important;
+               /*padding: 16px !important;*/
+			   padding: 17px !important;
                box-shadow : none !important;
                border-radius:0px !important;
                border:none !important;
@@ -2974,12 +3075,22 @@ form#discount-coupon-form button{
         .myaccount-dropdown {
             display:none;
         }
+		
+		.top-header {         
+			margin: auto 0px 20px;
+			padding: 0px 10px 0px 18px;
+        }
+		
+		.header.links {
+			/*width: 155px;*/
+			width: auto;
+		}
 }
 @media all and (min-width:1280px) {
 .dropdown button {
               background: #005daa none repeat scroll 0 0 !important;
                width:248px !important;
-               padding: 16px !important;
+               padding: 17px !important;
                box-shadow : none !important;
                border-radius:0px !important;
                border:none !important;
@@ -2993,6 +3104,11 @@ form#discount-coupon-form button{
         }
         .myaccount-dropdown {
             display:none;
+        }
+		
+		.top-header {         
+			margin: auto 0px 20px;
+			padding: 0px 10px 0px 30px;
         }
 }
 
@@ -3031,6 +3147,7 @@ form#discount-coupon-form button{
         .top-header {
             /*margin: auto 50px 20px;*/
 			margin: auto 0px 20px;
+			padding: 0px 23px 0px 50px;
         }
         .block.widget .products-grid .product-item {
             width: 16% !important;
@@ -3050,7 +3167,7 @@ form#discount-coupon-form button{
             font-size: 16px;
             border: none;
             cursor: pointer;
-            width:249px;			
+            width:249px;
         }
         
         .dropdown button {
@@ -3069,8 +3186,7 @@ form#discount-coupon-form button{
 
         .dropdown {
             position: relative;
-            display: inline-block;
-			padding-left: 58px;
+            display: inline-block;			
         }
 
         .main-nav {
