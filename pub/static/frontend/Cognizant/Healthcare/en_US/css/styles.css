@@ -1147,7 +1147,8 @@
 	width: 45%;
 }
 .header.links {
-	width: 132px;
+	/*width: 132px;*/
+	width: auto;
 }	
 		
 	.top-header {
@@ -2459,7 +2460,8 @@ ul.header.links {
 	width: 45%;
 }
 .header.links {
-	width: 132px;
+	/*width: 132px;*/
+	width: auto;
 }
 
 .top-header {
@@ -3080,7 +3082,8 @@ form#discount-coupon-form button{
         }
 		
 		.header.links {
-			width: 155px;
+			/*width: 155px;*/
+			width: auto;
 		}
 }
 @media all and (min-width:1280px) {
