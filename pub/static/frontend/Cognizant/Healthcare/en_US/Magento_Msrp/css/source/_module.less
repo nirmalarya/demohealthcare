@@ -23,14 +23,14 @@
         .lib-popup(
             @_popup-margin-top: @indent__s,
             @_popup-margin-left: false,
-            @_popup-content-margin: @indent__s 0 0,
+            @_popup-content-margin: false,
             @_popup-position-bottom: false,
             @_popup-position-right: false,
             @_popup-position: absolute
         );
         .map-info-price {
             &:extend(.abs-add-clearfix all);
-            margin-bottom: 15px;
+            margin: 0 0 @indent__base;
             .price-box {
                 margin: 0 0 @indent__base;
                 .label {
@@ -40,12 +40,19 @@
                 }
             }
         }
-    }
-
-    .map-old-price,
-    .product-info-price .map-show-info {
-        &:not(:last-child) {
-            margin-right: @indent__s;
+        .action {
+            &.primary {
+                margin-right: @indent__s;
+            }
+        }
+        .map-msrp {
+            margin-bottom: @indent__s;
+        }
+        .actual-price {
+            margin: 3px 0 15px;
+        }
+        .popup-header {
+            display: none;
         }
     }
 
@@ -53,6 +60,23 @@
         text-decoration: none;
         .price-wrapper {
             text-decoration: line-through;
+        }
+    }
+
+    .map-old-price,
+    .product-item .map-old-price,
+    .product-info-price .map-show-info {
+        &:not(:last-child) {
+            margin-right: @indent__s;
+        }
+    }
+
+    .product-options-bottom .price-box,
+    .product-info-price .price-box {
+        .old-price {
+            .price-container > span {
+                display: inline;
+            }
         }
     }
 

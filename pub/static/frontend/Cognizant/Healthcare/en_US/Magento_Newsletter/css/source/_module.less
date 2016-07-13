@@ -12,8 +12,9 @@
 //
 //    Newsletter subscription
 //--------------------------------------
+
 .block.newsletter {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     .form.subscribe {
         display: table;
         width: 100%;
@@ -29,9 +30,10 @@
         .control {
             .lib-icon-font(
                 @icon-envelope,
-                @_icon-font-size: 35px,
-                @_icon-font-line-height: 33px,
-                @_icon-font-color: @form-element-input-placeholder__color
+                @_icon-font-size: 16px,
+                @_icon-font-line-height: 32px,
+                @_icon-font-color: @form-element-input-placeholder__color,
+                @_icon-font-margin: 0 0 0 8px
             );
             &:before {
                 position: absolute;
@@ -67,15 +69,6 @@
 //--------------------------------------
 .media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
     .block.newsletter {
-        width: 32%;
-        .field {
-            .control {
-                width: 100%;
-            }
-            margin-right: 5px;
-        }
-        .action.subscribe {
-            border-radius: 3px;
-        }
+        width: 34%;
     }
 }

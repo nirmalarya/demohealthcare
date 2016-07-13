@@ -16,7 +16,7 @@
         </referenceContainer>
 		<referenceContainer name="page.top">
 		<container name="top.header"  htmlTag="div" htmlClass="top-header" before="breadcrumbs">
-		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html\topmenu.phtml"/>   
+		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html/topmenu.phtml"/>   
 		</container>
         </referenceContainer>
 		<referenceBlock name="logo">

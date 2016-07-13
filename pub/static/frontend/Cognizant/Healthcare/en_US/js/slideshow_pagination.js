@@ -24,7 +24,7 @@ require(['jquery'], function($)
 			
 			if(!$(this).width())
 			{
-				//alert("Please, fill the width & height for all the images!");
+				alert("Please, fill the width & height for all the images!");
 				return false;
 			}
 			
