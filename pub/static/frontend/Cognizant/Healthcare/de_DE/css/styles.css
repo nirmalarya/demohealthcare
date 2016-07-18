@@ -3051,6 +3051,13 @@ form#form-validate .fieldset .control{
     background: #004985 none repeat scroll 0 0;
     font-family: "interface",Helvetica,Arial,sans-serif;
     font-weight: 700;
+	
+	line-height: 1.5em;
+	height: 3em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
 }
 .fieldset .legend span{
                 font-size: 20px;
@@ -3300,3 +3307,4 @@ form#discount-coupon-form button{
 	/*padding: 0px 15px 0px 0px !important;*/
 	font-weight: 700;
 }
+
