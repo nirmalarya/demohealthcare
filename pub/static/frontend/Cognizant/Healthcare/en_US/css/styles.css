@@ -1097,7 +1097,7 @@
 }
 
 }
-@media all and (max-width:480px)
+@media all and (min-width:480px)
 {
     .myaccount-dropdown {
         display: inline-block;
@@ -3274,4 +3274,9 @@ form#discount-coupon-form button{
 /** Menu Override **/
 .page-products .columns {
     z-index: 0 !important;
+}
+
+.compare.wrapper {
+	padding: 0px 15px 0px 0px !important;
+	font-weight: 700;
 }
