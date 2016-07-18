@@ -2,15 +2,15 @@
 return array (
   'backend' => 
   array (
-    'frontName' => 'admin',
+    'frontName' => 'management',
   ),
   'crypt' => 
   array (
-    'key' => '0a3efa480a48295e767efd6112bc6d8e',
+    'key' => '0b9c132386a6244cfa941e7aa036e091',
   ),
   'session' => 
   array (
-    'save' => 'files',
+    'save' => 'db',
   ),
   'db' => 
   array (
@@ -19,10 +19,13 @@ return array (
     array (
       'default' => 
       array (
-        'host' => 'localhost',
-        'dbname' => 'demohealthcare',
-        'username' => 'root',
-        'password' => '',
+        'host' => 'mysql',
+        'dbname' => 'magento2dockerized',
+        'username' => 'magento',
+        'password' => 'enAVINa2',
+        'model' => 'mysql4',
+        'engine' => 'innodb',
+        'initStatements' => 'SET NAMES utf8;',
         'active' => '1',
       ),
     ),
@@ -38,21 +41,21 @@ return array (
   'MAGE_MODE' => 'default',
   'cache_types' => 
   array (
-    'config' => 0,
-    'layout' => 0,
-    'block_html' => 0,
-    'collections' => 0,
-    'reflection' => 0,
-    'db_ddl' => 0,
-    'eav' => 0,
-    'config_integration' => 0,
-    'config_integration_api' => 0,
-    'full_page' => 0,
-    'translate' => 0,
-    'config_webservice' => 0,
+    'config' => 1,
+    'layout' => 1,
+    'block_html' => 1,
+    'collections' => 1,
+    'reflection' => 1,
+    'db_ddl' => 1,
+    'eav' => 1,
+    'config_integration' => 1,
+    'config_integration_api' => 1,
+    'full_page' => 1,
+    'translate' => 1,
+    'config_webservice' => 1,
   ),
   'install' => 
   array (
-    'date' => 'Tue, 07 Jun 2016 07:55:15 +0000',
+    'date' => 'Wed, 13 Jul 2016 11:44:59 +0000',
   ),
 );

@@ -84,7 +84,7 @@
 &nbsp;,&nbsp;
 # of Items (and above),# von Artikel (und höher)
 # of Items vs. Destination,# von Artikel vs. Bestimmungsort
-%1,1%
+1%,1%
 %1 - %2,%1 - %2
 %1 - Discounts and Coupons,%1 - Rabatte und Gutscheine
 %1 - Special Products,%1 - Produkte im Sonderangebot
@@ -1539,7 +1539,7 @@ Conversion Rate Report,Umrechnungskursbericht
 Converting Invitation to Customer,Konvertiert Einladung zum Kunden
 Converting Invitation to Order,Konvertiert Einladung zur Bestellung
 Copy,Kopieren
-&copy; Magento Inc.",&copy; Magento Inc."
+&copy; Magento Inc.","&copy; Magento Inc."""
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe)."
 Configuration,Konfiguration
@@ -9039,3 +9039,54 @@ Zip/Post is Range,PLZ /Postleitzahl als Bereich
 Zip/Postal Code,Postleitzahl
 ZIP/Postal Code,PLZ/Postleitzahl
 Zip/Postal Code is Optional for,PLZ / Postleitzahl ist optional für
+"Customer Service
+",Kundenservice
+"Discover New Chemical Savings and Up to 50% Off Lab Essentials
+",Entdecken Sie New Chemical Spar- und Bis zu 50 % Rabatt auf Lab Essentials
+Special Offers & Programs,"Angebote & Programme
+"
+Product Certificates,Produktzertifikate
+Safety Data Sheets,Sicherheitsdatenblatter
+"Customer Support
+
+",Kundendienst
+Services,Dienstleistungen
+Education,Ausbildung
+"First Responders
+
+",Ersthelfer
+Government,Regierung
+Healthcare,Gesundheitswesen
+Safety,Sicherheit
+Contact Us,"Kontaktiere uns
+"
+Returns,"Kehrt zuruck
+"
+Getting Around fishersci.com,"Unterwegs in fishersci.com
+"
+Returns and Refund Policy,"Ruckkehr und Ruckerstattung -Politik
+"
+Shipping Policy,Versandbedingungen
+Trademarks,Marken
+Website Terms & Conditions,Website Allgemeine Geschaftsbedingungen
+Sales Terms & Conditions,"Allgemeine Geschaftsbedingungen
+"
+Legal Notices,"Rechtliche Hinweise
+"
+Privacy Policy,"Datenschutz-Bestimmungen
+"
+Shop Products,"Shop Produkte
+"
+"
+Promotions &amp; Special Offers
+",Promotions & Angebote
+"
+Featured Products
+",Ausgewahlte Artikel
+"
+New Arrivals
+",Neu eingetroffen
+"
+Shop Top Brands
+
+",Shop Top Marken

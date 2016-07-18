@@ -8838,7 +8838,8 @@
                 "email": "fabien@symfony.com"
             }
         ],
-        "description": "A tool to automatically fix PHP code style"
+        "description": "A tool to automatically fix PHP code style",
+        "abandoned": "friendsofphp/php-cs-fixer"
     },
     {
         "name": "lusitanian/oauth",
@@ -9531,5 +9532,54 @@
             "AFL-3.0"
         ],
         "description": "N/A"
+    },
+    {
+        "name": "arvatoscm/dockerize-magento2",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/arvatoSCM/dockerize-magento2.git",
+            "reference": "11edf83070b895cb348eaa82d111185cfe115ba9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/arvatoSCM/dockerize-magento2/zipball/11edf83070b895cb348eaa82d111185cfe115ba9",
+            "reference": "11edf83070b895cb348eaa82d111185cfe115ba9",
+            "shasum": ""
+        },
+        "time": "2016-03-29 13:20:10",
+        "type": "magento2-component",
+        "extra": {
+            "map": [
+                [
+                    "docker-compose.yml",
+                    "docker-compose.yml"
+                ],
+                [
+                    "config",
+                    "config"
+                ],
+                [
+                    "bin/console",
+                    "bin/console"
+                ]
+            ]
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Andreas Koch",
+                "email": "andy@ak7.io",
+                "homepage": "https://github.com/andreaskoch",
+                "role": "Author"
+            }
+        ],
+        "description": "Docker infrastructure defintions for Magento 2",
+        "homepage": "https://github.com/arvatoSCM/dockerize-magento2"
     }
 ]

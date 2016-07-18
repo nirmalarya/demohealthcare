@@ -8,10 +8,10 @@
 //  ---------------------------------------------
 
 @collapsible-nav-background: @sidebar__background-color;
-@collapsible-nav-color: false;
+@collapsible-nav-color: @color-gray34;
 @collapsible-nav-current-border: 3px solid transparent;
 @collapsible-nav-current-border-color: @color-orange-red1;
-@collapsible-nav-current-color: false;
+@collapsible-nav-current-color: @color-black;
 @collapsible-nav-current-font-weight: @font-weight__semibold;
 @collapsible-nav-item-hover: @color-gray91;
 
@@ -24,7 +24,7 @@
 & when (@media-common = true) {
 
 //
-//    Collapsible navigation
+//  Collapsible navigation
 //  ---------------------------------------------
 
 .block-collapsible-nav {
@@ -52,7 +52,7 @@
         }
         &.current {
             a,
-            strong {
+            > strong {
                 .lib-css(border-color, @collapsible-nav-current-border-color);
                 .lib-css(color, @collapsible-nav-current-color);
                 .lib-css(font-weight, @collapsible-nav-current-font-weight);
