@@ -3300,3 +3300,11 @@ form#discount-coupon-form button{
 	/*padding: 0px 15px 0px 0px !important;*/
 	font-weight: 700;
 }
+
+.product-item-actions .actions-primary + .actions-secondary {
+	padding-left: 5px !important;
+}
+
+.product-item-actions .actions-primary + .actions-secondary > .action.towishlist{
+	margin-right: 5px !important;
+}
