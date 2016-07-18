@@ -16,7 +16,7 @@
         </referenceContainer>
 		<referenceContainer name="page.top">
 		<container name="top.header"  htmlTag="div" htmlClass="top-header" before="breadcrumbs">
-		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html/topmenu.phtml"/>   
+		<block class="Cognizant\Theme\Block\Html\Topmenu" group="navigation-sections" name="store.leftmenu" template="Cognizant_Theme::html\topmenu.phtml"/>   
 		</container>
         </referenceContainer>
 		<referenceBlock name="logo">
@@ -28,7 +28,11 @@
         </referenceBlock>
         <referenceContainer name="footer">
             <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="switch/stores.phtml"/>
-            <block class="Magento\Framework\View\Element\Template" name="footer_links_block" template="Magento_Theme::html/footer_links.phtml"/>
+			<block class="Magento\Cms\Block\Block" name="footer_links_block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">footer_links_block</argument>
+                </arguments>
+            </block>
         </referenceContainer>
         <referenceBlock name="report.bugs" remove="true"/>
 		<referenceBlock name="store.menu" remove="true"/>
@@ -45,14 +49,13 @@
         <referenceBlock name="catalog-search-advanced-link" remove="true"/>
         <referenceBlock name="sales-guest-form-link" remove="true"/>
         <referenceContainer name="header-wrapper">
-            <!--<block class="Magento\Cms\Block\Block" name="header_top_links">
+            <block class="Magento\Cms\Block\Block" name="header_top_links">
                 <arguments>
                     <argument name="block_id" xsi:type="string">header_top_links</argument>
                 </arguments>
-            </block>-->	
-            <block class="Magento\Framework\View\Element\Template" name="header_top_links" template="Magento_Theme::html/header_top_links.phtml"/>
-	
+            </block>			
         </referenceContainer>
+        <move element="compare-link-wrapper" destination="header-wrapper" after="header_top_links" />
 		<!-- move element="store_language" destination="header-wrapper" before="header_top_links" / -->
     </body>
 </page>
