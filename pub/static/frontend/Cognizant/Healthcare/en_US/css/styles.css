@@ -1097,7 +1097,7 @@
 }
 
 }
-@media all and (max-width:480px)
+@media all and (min-width:480px)
 {
     .myaccount-dropdown {
         display: inline-block;
@@ -1164,8 +1164,13 @@
 	@media all and (min-width:768px),print
 {
 	.top-header .block-search {
-	width: 45%;
-}
+		width: 45%;
+	}
+	
+	.compare.wrapper {
+		padding: 0px 5px 0px 0px !important;
+		font-weight: 700;
+	}
 .header.links {
 	/*width: 132px;*/
 	width: auto;
@@ -2479,6 +2484,10 @@ ul.header.links {
 .top-header .block-search {
 	width: 45%;
 }
+
+.compare.wrapper {
+		padding: 0px 5px 0px 0px !important;		
+	}
 .header.links {
 	/*width: 132px;*/
 	width: auto;
@@ -3105,6 +3114,10 @@ form#discount-coupon-form button{
 			/*width: 155px;*/
 			width: auto;
 		}
+		
+		.compare.wrapper {
+			padding: 0px 5px 0px 0px !important;		
+		}
 }
 @media all and (min-width:1280px) {
 .dropdown button {
@@ -3130,6 +3143,10 @@ form#discount-coupon-form button{
 			margin: auto 0px 20px;
 			padding: 0px 10px 0px 30px;
         }
+		
+		.compare.wrapper {
+			padding: 0px 5px 0px 0px !important;		
+		}
 }
 
 @media all and (min-width:1300px) {
@@ -3237,7 +3254,10 @@ form#discount-coupon-form button{
         .myaccount-dropdown {
             display:none;
         }
-	 
+		
+		.compare.wrapper {
+			padding: 0px 15px 0px 0px !important;		
+		}	
 }
 
 @media all and (min-width:1440px) {
@@ -3274,4 +3294,17 @@ form#discount-coupon-form button{
 /** Menu Override **/
 .page-products .columns {
     z-index: 0 !important;
+}
+
+.compare.wrapper {
+	/*padding: 0px 15px 0px 0px !important;*/
+	font-weight: 700;
+}
+
+.product-item-actions .actions-primary + .actions-secondary {
+	padding-left: 5px !important;
+}
+
+.product-item-actions .actions-primary + .actions-secondary > .action.towishlist{
+	margin-right: 5px !important;
 }
