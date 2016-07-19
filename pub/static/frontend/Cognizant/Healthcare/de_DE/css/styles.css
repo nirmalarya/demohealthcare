@@ -3308,3 +3308,8 @@ form#discount-coupon-form button{
 	font-weight: 700;
 }
 
+.action.subscribe {
+   	line-height: 0em !important;
+	height: 2.3em !important;	
+	width: auto !important;  
+}
