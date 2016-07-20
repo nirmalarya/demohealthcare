@@ -1,12 +1,17 @@
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+$storeManager->getStore()->getBaseUrl();
+?>
 <div class="signup-row">
 	<div class="customer-service"><span class="cust_text"><?php echo __('Customer Service')?> +1 800-766-7000</span><span>|</span></div>
 	<div class="header-top-content"><?php echo __('Discover New Chemical Savings and Up to 50% Off Lab Essentials') ?></div>
 	<div class="header-top-links">
 	<ul>
-		<li style="padding: 6px; display: inline;"><a href="{{store url="special-offer"}}"><?php echo __('Special Offers & Programs')?></a></li>
-		<li style="padding-left: 6px; display: inline;"><a href="{{store url="product_certificate"}}"><?php echo __('Product Certificates')?></a></li>
-		<li style="padding: 6px; display: inline;"><a href="{{store url="safety_services"}}"><?php echo __('Safety Data Sheets')?></a></li>
-		<li style="padding: 6px; display: inline;"><a href="{{store url="sitemap"}}"><?php echo __('Sitemap')?></a></li>
+		<li style="padding: 6px; display: inline;"><a href="<?php echo $storeManager->getStore()->getUrl('special-offer')?>"><?php echo __('Special Offers & Programs')?></a></li>
+		<li style="padding-left: 6px; display: inline;"><a href="<?php echo $storeManager->getStore()->getUrl('product_certificate')?>"><?php echo __('Product Certificates')?></a></li>
+		<li style="padding: 6px; display: inline;"><a href="<?php echo $storeManager->getStore()->getUrl('safety_services')?>"><?php echo __('Safety Data Sheets')?></a></li>
+		<li style="padding: 6px; display: inline;"><a href="<?php echo $storeManager->getStore()->getUrl('sitemap')?>"><?php echo __('Sitemap')?></a></li>
 	</ul>
 	</div>
 </div>
