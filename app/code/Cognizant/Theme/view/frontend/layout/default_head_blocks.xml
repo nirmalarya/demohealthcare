@@ -7,15 +7,7 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <!-- <css src="Ibnab_CategoriesSide::css/vertical_menu.css"/> -->
 		<css src="Cognizant_Theme::css/vertical_menu_basic.css"/>
         <script src="Cognizant_Theme::js/jquery.min.js"/>
-		<!--script src="Cognizant_Theme::js/jquery.dcverticalmegamenu.js"/>
-		<script src="Cognizant_Theme::js/jquery.hoverIntent.minified.js"/-->
     </head>
-    <body>
-       <!-- <referenceContainer name="after.body.start">
-            <block class="Magento\Framework\View\Element\Js\Components" name="head.components" as="components" template="Magento_Theme::js/components.phtml" before="-"/>
-        </referenceContainer> -->
-    </body>
 </page>
