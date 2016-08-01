@@ -556,9 +556,7 @@
 	.opc-estimated-wrapper .estimated-block {
 		color: #ffffff;
 	}
-    .signup-row{
-        display: none;
-    }
+   
     .wrap{
         display: none;
     }
@@ -569,7 +567,8 @@
         width: 100%;
     }
     .logo {
-        margin:35px auto 9px 5px !important;
+         margin: 0 0 5px -8px !important;
+         max-width: 60% !important;
     }
     .nav-toggle{
         display:none;
@@ -690,6 +689,33 @@
         .toolbar-amount{
             padding:14px 0;
         }
+        .switcher.language.switcher-language {
+            display: block !important;
+            margin-bottom: auto;
+            margin-left: 244px;
+            margin-top: 42px;
+        }
+        .signup-row {
+            display: block;
+            float: right;
+            margin-right: -10px;
+            width: 40%;
+            margin-top: 5px;
+        }
+        .header-top-content, .header-top-links {
+            display: none;
+        }
+        .customer-service span.cust_text {
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .customer-service span:last-child {
+                display:none;
+        }
+        
+        
+        
+        
     /** custom end**/
     
 .womens-pants img
@@ -744,9 +770,6 @@
 	}
 
     /** Header responsive custom css  **/
-    .signup-row{
-        display: none;
-    }
     .wrap{
         display: none;
     }
@@ -758,7 +781,8 @@
         width: 100%;
     }
     .logo {
-       margin:35px auto 9px 5px !important;
+         margin: 0 0 5px -8px !important;
+         max-width: 60% !important;
     }
     .nav-toggle{
         display:none;
@@ -856,6 +880,58 @@
         .main-list > ul {
             list-style: outside none none;
         }
+        
+        .header-top-content, .header-top-links {
+            display: none;
+        }
+        .customer-service span.cust_text {
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .customer-service span:last-child {
+                display:none;
+        }
+        /* CSS to adjust sign in and search section */
+        /*.search .label, #container, .page-main, .page-footer , .copyright, .block-collapsible-nav {
+                float: left;
+        }
+
+        #container, .page-footer, .block-collapsible-nav {	
+                width: 100%;	
+        }*/
+        #container {
+            float: left;
+            width: 100%;
+        }
+        .search .label {
+                float: left;
+                margin-left: 100px;
+        }
+
+        .top-header .block-search {
+                width: 50%;
+        }
+
+        .search #search {
+                float:left;
+                width: auto;
+        }
+
+        ul.header.links {
+                float: right;
+                font-size: 10px;
+                margin: -40px 128px 0px 0px;
+                font-weight: 700;
+        }
+
+        .header  .welcome {
+                float: right;
+                color: #ffffff;
+        }
+        .customer-menu {
+                display:none;
+        }
+        
     /** custom end**/
     
 .blocks-promo
@@ -1097,7 +1173,7 @@
 }
 
 }
-@media all and (max-width:480px)
+@media screen and (min-width: 400px) and (max-width: 480px)
 {
     .myaccount-dropdown {
         display: inline-block;
@@ -1114,7 +1190,38 @@
     .toolbar-amount{
         padding:14px 0;
     }
+    .switcher.language.switcher-language {
+            display: block !important;
+            margin-bottom: auto;
+            margin-left: 400px;
+            margin-top: 42px;
+    }
+    .signup-row {
+            display: block;
+            float: right;
+            margin-right: -55px;
+            width: 40%;
+            margin-top: 5px;
+        }
 }
+
+@media screen and (min-width: 600px) and (max-width: 640px) 
+{
+    .switcher.language.switcher-language {
+            display: block !important;
+            margin-bottom: auto;
+            margin-left: 561px;
+            margin-top: 42px;
+    }
+    .signup-row {
+            display: block;
+            float: right;
+            margin-right: -43px;
+            width: 40%;
+            margin-top: 5px;
+    }
+}
+
 	@media all and (min-width:640px),print
 {
      /** Header responsive custom css  **/
@@ -2155,15 +2262,20 @@
 }
 
 /* CSS to adjust sign in and search section */
-.search .label, #container, .page-main, .page-footer , .copyright, .block-collapsible-nav {
+/*.search .label, #container, .page-main, .page-footer , .copyright, .block-collapsible-nav {
 	float: left;
 }
 
 #container, .page-footer, .block-collapsible-nav {	
 	width: 100%;	
 }
-
+*/
+#container {
+    float: left;
+    width: 100%;
+}
 .search .label {
+        float: left;
 	margin-left: 100px;
 }
 
@@ -2188,7 +2300,8 @@ ul.header.links {
 	color: #ffffff;
 }
 .customer-menu {
-	display:none;
+
+display:none;
 }
 
 
