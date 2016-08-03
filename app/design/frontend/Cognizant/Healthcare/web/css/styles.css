@@ -931,6 +931,11 @@
         .customer-menu {
                 display:none;
         }
+        .customer-menu {
+            float: left;
+            margin-right: -106px;
+            margin-top: 35px;
+        }
         
     /** custom end**/
     
@@ -2300,8 +2305,12 @@ ul.header.links {
 	color: #ffffff;
 }
 .customer-menu {
-
-display:none;
+        display:none;
+}
+.customer-menu {
+    float: left;
+    margin-right: -47px;
+    margin-top: 35px;
 }
 
 
