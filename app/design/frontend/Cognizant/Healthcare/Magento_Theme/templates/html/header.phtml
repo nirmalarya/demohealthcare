@@ -47,3 +47,34 @@ $welcomeMessage = $block->getWelcome();
     <?php break; ?>
 
 <?php endswitch; ?>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+     if(jQuery(window).width() < 767){
+			$(".greet.welcome").click(function(event) {
+			    $(".customer-menu").css("display","block");
+				event.stopPropagation();
+			});				
+			$(document).click(function(event) {
+				$(".customer-menu").css("display","none");
+			});
+				
+	 }else{
+	  $(".customer-menu").css("display","block");
+	 }
+ });
+ $(window).resize(function(){
+		if(jQuery(window).width() < 767){
+			$(".customer-menu").css("display","none");
+			$(".greet.welcome").click(function(event) {
+				$(".customer-menu").css("display","block");
+				event.stopPropagation();
+			});				
+			$(document).click(function(event) {
+				$(".customer-menu").css("display","none");
+			});
+		}else{
+		 $(".customer-menu").css("display","block");
+		}
+});
+</script>
